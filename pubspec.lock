@@ -217,8 +217,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/flutter"
-      ref: "1ee1fece90b1d29d2493e8cfdce8b4e7f884d70f"
-      resolved-ref: "1ee1fece90b1d29d2493e8cfdce8b4e7f884d70f"
+      ref: b9e989b14e7196d7292c20847869fa92964bec21
+      resolved-ref: b9e989b14e7196d7292c20847869fa92964bec21
       url: "https://github.com/NDDev-OpenNetwork/nddev-opennetwork-design-system.git"
     source: git
     version: "0.0.1-alpha.8"
@@ -226,8 +226,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/nds_native"
-      ref: "16df692f1f37458c312c9599bf3a67c72b0b6163"
-      resolved-ref: "16df692f1f37458c312c9599bf3a67c72b0b6163"
+      ref: "18a60f7ab6df0ba49394bc00a86f1db04410b90b"
+      resolved-ref: "18a60f7ab6df0ba49394bc00a86f1db04410b90b"
       url: "https://github.com/NDDev-OpenNetwork/nddev-device-sync-desktop.git"
     source: git
     version: "0.0.1-alpha.10"
@@ -235,8 +235,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/nds_ui"
-      ref: "16df692f1f37458c312c9599bf3a67c72b0b6163"
-      resolved-ref: "16df692f1f37458c312c9599bf3a67c72b0b6163"
+      ref: "18a60f7ab6df0ba49394bc00a86f1db04410b90b"
+      resolved-ref: "18a60f7ab6df0ba49394bc00a86f1db04410b90b"
       url: "https://github.com/NDDev-OpenNetwork/nddev-device-sync-desktop.git"
     source: git
     version: "0.0.1-alpha.10"
