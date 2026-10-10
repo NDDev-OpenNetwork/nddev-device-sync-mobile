@@ -5,7 +5,8 @@ Shared en/ru presentation and the generated native bridge come from the desktop
 repository. Rust owns identity/session storage; Flutter never receives tokens.
 
 Use Flutter 3.47.7/Dart 3.13.5 and Rust 1.99.0. Android requires API 36, JDK 21,
-NDK 28.2.13676358 and the Rust target for the device architecture. Run
+NDK 28.2.13676358 and the Rust target for the device architecture. The native
+client requires Android 15/API 35 or newer. Run
 `flutter pub get --enforce-lockfile`, `just check` and `just build-android`.
 An iOS build and Keychain interaction require macOS/Xcode; an Android result
 is not evidence for iOS. Release signing is deliberately not configured.

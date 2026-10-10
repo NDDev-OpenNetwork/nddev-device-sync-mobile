@@ -16,9 +16,8 @@ android {
 
     defaultConfig {
         applicationId = "ai.nddev.nds.nddev_device_sync_mobile"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+        // Match the minimum API linked by the locked native Rust toolchain.
+        minSdk = 35
         targetSdk = flutter.targetSdkVersion
         // Uses the version code from pubspec.yaml. When using split APKs, 1000 * ABI_VERSION
         // is added automatically by Flutter. (https://developer.android.com/studio/build/configure-apk-splits#configure-APK-versions)

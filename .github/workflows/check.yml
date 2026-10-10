@@ -70,7 +70,7 @@ jobs:
         run: python vendor/desktop/scripts/build-provenance.py build/app/outputs/flutter-apk/app-debug.apk --output build/nds-android-provenance.json
       - name: iOS simulator build
         if: matrix.target == 'ios'
-        run: python vendor/desktop/scripts/build.py ios --simulator --debug --no-codesign --build-name=0.0.1 --build-number=9
+        run: python vendor/desktop/scripts/build.py ios --verbose --simulator --debug --no-codesign --build-name=0.0.1 --build-number=9
       - name: iOS simulator artifact boundary
         if: matrix.target == 'ios'
         run: python vendor/desktop/scripts/check-artifact.py build/ios/iphonesimulator --native-source-commit ${{ steps.desktop.outputs.sha }}
@@ -79,7 +79,7 @@ jobs:
         run: python vendor/desktop/scripts/build-provenance.py build/ios/iphonesimulator --output build/nds-ios-simulator-provenance.json
       - name: Unsigned iOS device build
         if: matrix.target == 'ios'
-        run: python vendor/desktop/scripts/build.py ios --debug --no-codesign --build-name=0.0.1 --build-number=9
+        run: python vendor/desktop/scripts/build.py ios --verbose --debug --no-codesign --build-name=0.0.1 --build-number=9
       - name: iOS device artifact boundary
         if: matrix.target == 'ios'
         run: python vendor/desktop/scripts/check-artifact.py build/ios/iphoneos --native-source-commit ${{ steps.desktop.outputs.sha }}
