@@ -1,0 +1,35 @@
+{
+  "files_sha256": {
+    "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": "1d245db2eb35d8e77d943662f818b43fd6a1809c4788e7d633be2168aa6ed0c7",
+    "android/app/src/main/res/mipmap-mdpi/ic_launcher.png": "cbd37eb94c7f58bf9f8083aa0da5d8f58c93a66fde7ebf004398a40a35718e48",
+    "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": "fd75fe37501562e0be89dbb474e85ae5f5bfed7050f7a12f7744dab36ed6dfeb",
+    "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": "a3dcead6c2b165629427a2236bfc2d6676d5617c9fb8faa28890f222e6d09d92",
+    "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": "bda00c6beb584e3d118d8e8b31b5d6e872aae99bd7110f83b2aab5453b58f773",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png": "c05e034e7d92bb669ceb8ea5c4f003f18a9b0cafe2e32a7fe891356467ff650d",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png": "fb653f0c431228f4b2120b0ae226135f1e24b67a73d73b6356dcbad9f1650f65",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png": "43cf63eeaefba32a4f4f74b6dfd56b20030239abd9dbc0d1f5a9485c7f3d199c",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png": "bcffbe492cec9dbc5acbf8b55c2a3bc1d546aacdcc4a45d920be6791803f5c9e",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png": "db32c5a1feda52a4f0ab88ccc7e4d0d87836c03802ecb82a3630e672b90fe8b7",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png": "76c38661310a551f26c72fe4b6a9f600b23a90cc6d21cd4349e121fd6fc80d60",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png": "46eedd438a1c3438a5982565b0672f1b680b9728535c917773eb06ab7b26c792",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png": "43cf63eeaefba32a4f4f74b6dfd56b20030239abd9dbc0d1f5a9485c7f3d199c",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png": "ecb8da24c3dd27811208dfe4ee9be2f4b197da597f9ccf7933d2c6b6ed22b66e",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png": "f234a7bb8730bf07be64f16e6833b05859aae010d9cfec0425f15b630003c3a4",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png": "f234a7bb8730bf07be64f16e6833b05859aae010d9cfec0425f15b630003c3a4",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png": "512fb681a8dc8a5c913c5b27b82d97bfe90d468de7d9badd63f25319c2c38447",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png": "3a61be95cad7d28226aa0369117e2de64fe298d5e38546631b2a43b6db85eec8",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png": "919fc549e32da02e49fd01c79b2b19918cc2807d552151c35b61a94a177a8b0f",
+    "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png": "23390c71b4aff207542d4aa0b7963d35e1915caa680d61c688c270bad41a8f54"
+  },
+  "source": {
+    "commit": "797d376a9d37f68ff6ad09be0ff4fa0323e6e0f3",
+    "inputs_sha256": {
+      "assets/brand-source.json": "9c71e04cf60121340eef9678584384da874703c31aadf029b305b8262f2d15e2",
+      "assets/nddev-mark.svg": "3997b08aa3c47d0d5827484db657c8e18a53dc0a00e1a875cc57eb931c6f4877",
+      "tokens/tokens.json": "e9fd42397d361cf2ac0a3af5d138b0ff43373a6e663af965d492f3053e503536",
+      "tools/generate_launchers.py": "1852eaa1bc24e38529da522d667171d703de5500e2dfcd351112295fc67b7033"
+    },
+    "pillow_version": "12.1.1",
+    "repository": "NDDev-OpenNetwork/nddev-opennetwork-design-system"
+  }
+}
