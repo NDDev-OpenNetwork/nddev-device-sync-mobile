@@ -226,8 +226,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/nds_native"
-      ref: "07d83e47483fb86e3db157a4c0f6483eb224cc9f"
-      resolved-ref: "07d83e47483fb86e3db157a4c0f6483eb224cc9f"
+      ref: "996fb59c40514a67191f786972b59baf95c070b3"
+      resolved-ref: "996fb59c40514a67191f786972b59baf95c070b3"
       url: "https://github.com/NDDev-OpenNetwork/nddev-device-sync-desktop.git"
     source: git
     version: "0.0.1-alpha.11"
@@ -235,8 +235,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/nds_ui"
-      ref: "07d83e47483fb86e3db157a4c0f6483eb224cc9f"
-      resolved-ref: "07d83e47483fb86e3db157a4c0f6483eb224cc9f"
+      ref: "996fb59c40514a67191f786972b59baf95c070b3"
+      resolved-ref: "996fb59c40514a67191f786972b59baf95c070b3"
       url: "https://github.com/NDDev-OpenNetwork/nddev-device-sync-desktop.git"
     source: git
     version: "0.0.1-alpha.11"
