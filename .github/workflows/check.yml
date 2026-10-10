@@ -48,7 +48,9 @@ jobs:
           test -d "$JAVA_HOME_21_X64"
           echo "$JAVA_HOME_21_X64/bin" >> "$GITHUB_PATH"
           echo "JAVA_HOME=$JAVA_HOME_21_X64" >> "$GITHUB_ENV"
-          sdkmanager 'platforms;android-36' 'build-tools;36.0.0' 'ndk;28.2.13676358' 'cmake;3.22.1'
+          export JAVA_HOME="$JAVA_HOME_21_X64"
+          export PATH="$JAVA_HOME/bin:$PATH"
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-36' 'build-tools;36.0.0' 'ndk;28.2.13676358' 'cmake;3.22.1'
           rustup target add --toolchain 1.99.0 aarch64-linux-android x86_64-linux-android
           flutter config --android-sdk "$ANDROID_HOME" --jdk-dir "$JAVA_HOME_21_X64"
       - name: Native iOS targets
