@@ -50,7 +50,7 @@ jobs:
       - if: runner.os == 'Linux'
         run: python -m pip install --require-hashes -r vendor/design-system/tools/requirements-icons.txt
       - if: runner.os == 'Linux'
-        run: python vendor/design-system/tools/generate_launchers.py --mobile . --check
+        run: bash vendor/design-system/tools/with-renderer-zlib.sh python vendor/design-system/tools/generate_launchers.py --mobile . --check
       - run: python -S vendor/design-system/tools/generate_launchers.py --mobile . --verify
       - id: desktop
         run: python scripts/desktop-source.py
