@@ -73,6 +73,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.7"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      sha256: b7cc2390aac296c083bea762859413eb1cf5b630c70e0c7e4d831018f762a8b2
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   fake_async:
     dependency: transitive
     description:
@@ -226,20 +234,20 @@ packages:
     dependency: transitive
     description:
       path: "packages/nds_native"
-      ref: "9c6dcaec84a15bb37adad480af844d2aae3c6918"
-      resolved-ref: "9c6dcaec84a15bb37adad480af844d2aae3c6918"
-      url: "https://github.com/NDDev-OpenNetwork/nddev-device-sync-desktop.git"
+      ref: af803a567df6255850c2790e66b98a8925e0a632
+      resolved-ref: af803a567df6255850c2790e66b98a8925e0a632
+      url: "https://github.com/NDDev-Technocracy-OpenNetwork-NDS/nddev-device-sync-desktop.git"
     source: git
-    version: "0.0.1-alpha.18"
+    version: "0.0.1-alpha.19"
   nds_ui:
     dependency: "direct main"
     description:
       path: "packages/nds_ui"
-      ref: "9c6dcaec84a15bb37adad480af844d2aae3c6918"
-      resolved-ref: "9c6dcaec84a15bb37adad480af844d2aae3c6918"
-      url: "https://github.com/NDDev-OpenNetwork/nddev-device-sync-desktop.git"
+      ref: af803a567df6255850c2790e66b98a8925e0a632
+      resolved-ref: af803a567df6255850c2790e66b98a8925e0a632
+      url: "https://github.com/NDDev-Technocracy-OpenNetwork-NDS/nddev-device-sync-desktop.git"
     source: git
-    version: "0.0.1-alpha.18"
+    version: "0.0.1-alpha.19"
   path:
     dependency: transitive
     description:
