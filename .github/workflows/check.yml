@@ -43,7 +43,7 @@ jobs:
           PY
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
-          repository: NDDev-OpenNetwork/nddev-opennetwork-design-system
+          repository: NDDev-Technocracy-OpenNetwork-NDS/nddev-opennetwork-design-system
           ref: ${{ steps.design.outputs.sha }}
           path: vendor/design-system
           persist-credentials: false
@@ -56,7 +56,7 @@ jobs:
         run: python scripts/desktop-source.py
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
-          repository: NDDev-OpenNetwork/nddev-device-sync-desktop
+          repository: NDDev-Technocracy-OpenNetwork-NDS/nddev-device-sync-desktop
           ref: ${{ steps.desktop.outputs.sha }}
           path: vendor/desktop
           persist-credentials: false
