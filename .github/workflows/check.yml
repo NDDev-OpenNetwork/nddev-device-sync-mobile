@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: true
 env:
   CARGO_BUILD_JOBS: 4
+  GH_TOKEN: ${{ github.token }}
 jobs:
   builds:
     strategy:
@@ -88,8 +89,8 @@ jobs:
           export CC_x86_64_linux_android="$ANDROID_HOME/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android35-clang"
           export AR_aarch64_linux_android="$ANDROID_HOME/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
           export AR_x86_64_linux_android="$AR_aarch64_linux_android"
-          cargo +1.99.0 clippy --manifest-path vendor/desktop/packages/nds_native/rust/Cargo.toml --locked --all-targets --target aarch64-linux-android -- -D warnings
-          cargo +1.99.0 clippy --manifest-path vendor/desktop/packages/nds_native/rust/Cargo.toml --locked --all-targets --target x86_64-linux-android -- -D warnings
+          python vendor/desktop/packages/nds_native/tool/prepare_native.py -- cargo +1.99.0 clippy --manifest-path vendor/desktop/packages/nds_native/rust/Cargo.toml --locked --all-targets --target aarch64-linux-android -- -D warnings
+          python vendor/desktop/packages/nds_native/tool/prepare_native.py -- cargo +1.99.0 clippy --manifest-path vendor/desktop/packages/nds_native/rust/Cargo.toml --locked --all-targets --target x86_64-linux-android -- -D warnings
       - name: Android ARM64 app
         if: matrix.target == 'android'
         run: python vendor/desktop/scripts/build.py apk --debug --target-platform android-arm64
