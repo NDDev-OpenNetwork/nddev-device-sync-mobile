@@ -21,3 +21,9 @@ forwarding. It restores the temporary debug-only configuration afterward.
 CI bootstraps from the immutable shared UI source, builds Android ARM64 and
 unsigned iOS device/simulator targets, and checks that test harnesses are absent.
 It does not sign or publish a release, or substitute for native-device acceptance.
+
+Company administration and invitation verification reuse the selected Shared
+Organizations/Accounts Rust client and presentation. Administrative changes are
+online; an uncertain command can be retried without replacing its identity.
+Native invitation links are explicitly imported into the signed-out client;
+OS app/universal-link associations remain deployment-specific.
